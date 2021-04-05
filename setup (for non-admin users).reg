@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\cup]
+""="URL:cup Protocol"
+"URL Protocol"="cup"
+
+[HKEY_CLASSES_ROOT\cup\DefaultIcon]
+""="c:\\cup\\cup.exe"
+
+[HKEY_CLASSES_ROOT\cup\shell]
+
+[HKEY_CLASSES_ROOT\cup\shell\open]
+
+[HKEY_CLASSES_ROOT\cup\shell\open\command]
+""="c:\\cup\\cup.exe \"%1\""
